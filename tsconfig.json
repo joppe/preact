@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "jsx": "react",
+        "jsxFactory": "h",
+        "module": "system",
+        "outDir": "dist",
+        "paths": {
+            "preact": [
+                "node_modules/preact/dist/preact.d.ts"
+            ],
+            "redux": [
+                "node_modules/redux/index.d.ts"
+            ]
+        },
+        "sourceMap": true,
+        "target": "es5"
+    },
+    "exclude": [
+        "dist"
+    ],
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ]
+}

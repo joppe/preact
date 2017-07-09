@@ -1,0 +1,19 @@
+{
+  "name": "recipe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "2.3.4"
+  },
+  "dependencies": {
+    "preact": "^8.1.0",
+    "redux": "^3.7.1",
+    "systemjs": "^0.20.14"
+  }
+}
