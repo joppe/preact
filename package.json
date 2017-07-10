@@ -12,7 +12,7 @@
     "typescript": "2.3.4"
   },
   "dependencies": {
-    "materialize-css": "^0.99.0",
+    "bootstrap": "^3.3.7",
     "preact": "^8.1.0",
     "redux": "^3.7.1",
     "systemjs": "^0.20.14"
