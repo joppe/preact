@@ -9,12 +9,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "2.3.4"
+    "ts-loader": "^3.1.1",
+    "tslint": "^5.8.0",
+    "tslint-microsoft-contrib": "^5.0.1",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "preact": "^8.1.0",
-    "redux": "^3.7.1",
-    "systemjs": "^0.20.14"
+    "preact": "^8.2.6",
+    "redux": "^3.7.2",
+    "systemjs": "^0.20.19"
   }
 }

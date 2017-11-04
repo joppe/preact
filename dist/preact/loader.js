@@ -9,6 +9,7 @@ System.register(["preact"], function (exports_1, context_1) {
             }
         ],
         execute: function () {
+            window.console.log(preact_1.default.h);
             exports_1("Component", Component = preact_1.default.Component);
             exports_1("h", h = preact_1.default.h);
             exports_1("render", render = preact_1.default.render);

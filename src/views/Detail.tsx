@@ -1,4 +1,4 @@
-import {h} from '../preact/loader';
+import {h} from '../loader';
 
 interface DetailPropsTypeInterface {
     foo:string;

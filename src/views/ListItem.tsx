@@ -1,11 +1,22 @@
-import {h} from '../preact/loader';
-import {RecipeInterface} from '../data';
+import {h} from 'src/loader';
+import {IRecipe} from 'model/IRecipe';
 
-interface ListItemPropsTypeInterface {
-    recipe:RecipeInterface;
+/**
+ * @inheritDoc IListItemPropsType
+ */
+interface IListItemPropsType {
+    /**
+     * @type {IRecipe}
+     */
+    recipe: IRecipe;
 }
 
-export const ListItem:preact.FunctionalComponent<ListItemPropsTypeInterface> = (props:ListItemPropsTypeInterface):JSX.Element => {
+/**
+ * @param {IListItemPropsType} props
+ * @returns {JSX.Element}
+ * @constructor
+ */
+export const ListItem: preact.FunctionalComponent<IListItemPropsType> = (props: IListItemPropsType): JSX.Element => {
     return (
         <tr>
             <td>{props.recipe.title}</td>

@@ -1,4 +1,6 @@
-import {default as preact} from 'preact';
+import preact from 'preact';
+
+window.console.log(preact);
 
 export const Component = preact.Component;
 export const h = preact.h;

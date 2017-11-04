@@ -3,24 +3,15 @@
         "baseUrl": "./",
         "jsx": "react",
         "jsxFactory": "h",
-        "module": "system",
+        "module": "commonjs",
         "outDir": "dist",
-        "paths": {
-            "preact": [
-                "node_modules/preact/src/preact.d.ts"
-            ],
-            "redux": [
-                "node_modules/redux/index.d.ts"
-            ]
-        },
         "sourceMap": true,
         "target": "es5"
     },
     "exclude": [
         "dist"
     ],
-    "include": [
-        "src/**/*.ts",
-        "src/**/*.tsx"
+    "files": [
+        "src/main.tsx"
     ]
 }

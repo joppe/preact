@@ -1,34 +1,11 @@
-export interface TimeInterface {
-    [id:string]:number;
-}
+import {IRecipe} from 'model/IRecipe';
 
-export interface IngredientAmountInterface {
-    value:number;
-    unit:string;
-}
-
-export interface IngredientInterface {
-    name:string;
-    amount:IngredientAmountInterface;
-}
-
-export interface RecipeInterface {
-    id:number;
-    title:string;
-    cuisine?:string;
-    course?:string;
-    time?:TimeInterface;
-    style?:string;
-    servings?:number;
-    description:string;
-    ingredients:IngredientInterface[];
-    instructions?:string[];
-    source?:string;
-    image?:string;
-    rating?:number;
-}
-
-export const data:RecipeInterface[] = [
+/**
+ * Sample
+ *
+ * @type {IRecipe}
+ */
+const data: IRecipe[] = [
     {
         id: 0,
         title: 'Indonesisch: mie goreng',
@@ -62,8 +39,8 @@ export const data:RecipeInterface[] = [
             'Voeg dan de mie en de ketjap toe en roer alles goed door elkaar.',
             'Bak ondertussen 4 spiegeleieren voor de garnering.',
         ],
-        source: 'https://www.ah.nl/kookschrift/recept?id=276629',
-        image: 'http://www.whats4eats.com/files/pastas-mie-goreng-wikipedia-4x3.jpg',
+        source: '//www.ah.nl/kookschrift/recept?id=276629',
+        image: '//www.whats4eats.com/files/pastas-mie-goreng-wikipedia-4x3.jpg',
         rating: 4
     }
 ];
