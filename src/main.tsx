@@ -1,11 +1,25 @@
-import {h, Component} from 'preact';
+import {Component, h, render} from 'preact';
 
-export interface HelloWorldProps {
+/**
+ * @inheritDoc IHelloWorldProps
+ */
+export interface IHelloWorldProps {
+    /**
+     * @type {string}
+     */
     name: string;
 }
 
-export default class HelloWorld extends Component<HelloWorldProps, any> {
-    render (props) {
-        return <p>Hello {props.name}!</p>
+class HelloWorld extends Component<IHelloWorldProps, {}> {
+    /**
+     * @param {IHelloWorldProps} props
+     * @returns {JSX.Element}
+     */
+    public render(props: IHelloWorldProps): JSX.Element {
+        return (
+            <p>Hello { props.name }!</p>
+        );
     }
 }
+
+render(<HelloWorld name='Joppe' />, window.document.body);

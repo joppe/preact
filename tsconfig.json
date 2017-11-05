@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "baseUrl": "./",
+        "experimentalDecorators": true,
         "jsx": "react",
         "jsxFactory": "h",
         "module": "commonjs",
@@ -12,6 +13,10 @@
         "dist"
     ],
     "files": [
-        "src/main.tsx"
+        "node_modules/preact/dist/preact.d.ts"
+    ],
+    "include": [
+        "./src/**/*.tsx",
+        "./src/**/*.ts"
     ]
 }
