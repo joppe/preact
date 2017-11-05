@@ -3,7 +3,7 @@ Just playing around with:
 - Preact
 - Redux
 - TypeScript
-- SystemJs
+- Webpack
 
 Sources
 

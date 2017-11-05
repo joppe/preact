@@ -22,4 +22,7 @@ class HelloWorld extends Component<IHelloWorldProps, {}> {
     }
 }
 
-render(<HelloWorld name='Joppe' />, window.document.body);
+// Render the component as a child of the body element
+render(<HelloWorld name='Joppe' />, window.document.getElementById('app'));
+
+window.console.log('foo');
