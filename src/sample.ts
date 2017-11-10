@@ -1,11 +1,12 @@
 import {IRecipe} from 'app/model/IRecipe';
+import {IState} from 'app/model/IState';
 
 /**
  * Sample
  *
  * @type {IRecipe}
  */
-export const sample: IRecipe[] = [
+export const sample: IState = [
     {
         id: 0,
         title: 'Mie goreng rames speciaal',
