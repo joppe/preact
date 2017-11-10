@@ -1,14 +1,14 @@
-import {IRecipe} from 'model/IRecipe';
+import {IRecipe} from 'app/model/IRecipe';
 
 /**
  * Sample
  *
  * @type {IRecipe}
  */
-const data: IRecipe[] = [
+export const sample: IRecipe[] = [
     {
         id: 0,
-        title: 'Indonesisch: mie goreng',
+        title: 'Mie goreng rames speciaal',
         cuisine: 'Oosters',
         course: 'Hoofdgerecht',
         time: {

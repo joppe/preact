@@ -1,4 +1,4 @@
-import {IIngredientAmount} from 'model/IIngredientAmount';
+import {IIngredientAmount} from 'src/model/IIngredientAmount';
 
 /**
  * @type {IIngredient}

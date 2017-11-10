@@ -1,5 +1,5 @@
-import {h} from 'src/loader';
-import {IRecipe} from 'model/IRecipe';
+import {IRecipe} from 'app/model/IRecipe';
+import {h} from 'preact';
 
 /**
  * @inheritDoc IListItemPropsType
@@ -14,12 +14,12 @@ interface IListItemPropsType {
 /**
  * @param {IListItemPropsType} props
  * @returns {JSX.Element}
- * @constructor
  */
 export const ListItem: preact.FunctionalComponent<IListItemPropsType> = (props: IListItemPropsType): JSX.Element => {
     return (
         <tr>
-            <td>{props.recipe.title}</td>
+            <td>{ props.recipe.title }</td>
+            <td>{ props.recipe.description }</td>
         </tr>
     );
 };

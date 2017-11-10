@@ -1,5 +1,5 @@
-import {IDuration} from 'model/IDuration';
-import {IIngredient} from 'model/IIngredient';
+import {IDuration} from 'src/model/IDuration';
+import {IIngredient} from 'src/model/IIngredient';
 
 /**
  * @interface IRecipe
