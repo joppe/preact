@@ -5,6 +5,7 @@
     ],
     "jsRules": {},
     "rules": {
+        "no-reserved-keywords": false,
         "react-tsx-curly-spacing": [
             true, "always", {
                 "allowMultiline": true
