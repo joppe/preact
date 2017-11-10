@@ -22,7 +22,7 @@ const config = {
     },
     resolve: {
         extensions: [
-            '.ts', '.tsx'
+            '.js', '.ts', '.tsx'
         ]
     }
 };
