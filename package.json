@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
+  "author": {
+    "name": "Joppe Aarts",
+    "email": "joppe@apestaartje.info"
+  },
   "scripts": {
     "start:dev": "webpack-dev-server"
   },
