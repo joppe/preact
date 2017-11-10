@@ -2,12 +2,11 @@ const path = require('path');
 
 const config = {
     devtool: 'source-map',
-    entry: [
-        './src/main'
-    ],
-    output: {
-        path: path.resolve('./dist'),
-        filename: 'main.js'
+    devServer: {
+        port: 9000
+    },
+    entry: {
+        main: './src/main.tsx'
     },
     module: {
         loaders: [
@@ -19,6 +18,11 @@ const config = {
                 ]
             }
         ]
+    },
+    output: {
+        filename: '[name].js',
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: '/dist'
     },
     resolve: {
         extensions: [
