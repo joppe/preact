@@ -6,6 +6,11 @@
         "jsxFactory": "h",
         "module": "commonjs",
         "outDir": "dist",
+        "paths": {
+            "app/*": [
+                "./src/*"
+            ]
+        },
         "sourceMap": true,
         "target": "es5"
     },

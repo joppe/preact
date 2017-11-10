@@ -25,6 +25,9 @@ const config = {
         publicPath: '/dist'
     },
     resolve: {
+        alias: {
+            app: path.resolve(__dirname, 'src')
+        },
         extensions: [
             '.js', '.ts', '.tsx'
         ]
