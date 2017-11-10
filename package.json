@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server"
+  },
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^3.3.7"
