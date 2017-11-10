@@ -4,6 +4,13 @@
         "tslint-microsoft-contrib"
     ],
     "jsRules": {},
-    "rules": {},
+    "rules": {
+        "react-tsx-curly-spacing": [
+            true, "always", {
+                "allowMultiline": true
+            }
+        ],
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"]
+    },
     "rulesDirectory": []
 }
